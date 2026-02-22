@@ -17,8 +17,7 @@ jobs:
 
       - name: Build
         run: |
-          mkdir dist
-          
+
           echo "anviaz.com" > dist/CNAME
 
       - uses: actions/upload-pages-artifact@v3
